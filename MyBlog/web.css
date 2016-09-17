@@ -1,0 +1,302 @@
+body{
+
+    background: url("3.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+
+}
+aside{
+    top: 30%;
+    right: 0;
+    padding: 1em;
+    position: fixed;
+    font: bold 1em tahoma;
+}
+li{
+    list-style: none;
+}
+ul li a i {
+
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 25px;
+    text-align: center;
+    margin-right: 10px;
+    padding-top: 15%;
+
+}
+.fa-facebook {
+    background:#3b5998;
+
+
+}
+.fa-linkedin {
+    background:#007bb6;
+
+}
+
+.fa-google-plus {
+    background:#dd4b39;
+
+}
+ul li a i:hover {
+    opacity: .7;
+}
+
+.content{
+
+    margin-top: 7%;
+    min-height: 70%;
+    width: 30%;
+
+
+}
+.side{
+    margin-top: 7%;
+
+    max-height: 550px;
+
+}
+
+.img-circle{
+    margin-top: 5%;
+    width: 40%;
+    height: 40%;
+}
+
+.info {
+        font-size: 7vmin;
+    }
+
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(Raleway.ttf);
+}
+.para1{
+    font-size: 3vmin;
+    font-family: myFirstFont;
+    color: #00a708;
+
+}
+.bio{
+    font-size: 2.6vmin;
+    font-family: myFirstFont;
+    color: #00a708;
+
+}
+.para2{
+    font-size: 2.3vmin;
+    font-family: myFirstFont;
+    color: #00a708;
+
+
+}
+.para3{
+    font-size: 2.3vmin;
+    font-family: myFirstFont;
+    color: #5e0006;
+
+
+}
+h1{
+    font-size: 5vmin;
+    font-family: myFirstFont;
+    color: #3b5cb4;
+    margin-top: 5%;
+}
+
+.wrap{
+    word-break: break-all;
+
+}
+.head{
+
+    font-family: myFirstFont;
+    font-size: 4vmin;
+    font-weight: 700;
+
+}
+
+.subhead{
+    font-family: myFirstFont;
+    border-bottom: 1px solid;
+    padding-bottom: 2%;
+    border-bottom-color: #b0b0b0;
+    font-size: 3vmin;
+    font-style: italic;
+}
+.be,.mtech,.experience,.ug,.pg{
+    border: 1px solid;
+    border-radius: 1em;
+    border-color: #ababab;
+    margin: 7%;
+    padding-left: 5%;
+}
+.scrollbar
+{
+    height: 550px;
+    background: #F5F5F5;
+    overflow: scroll;
+
+}
+.side::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(108, 108, 108, 0.100);
+    background-color: #F5F5F5;
+}
+
+.side::-webkit-scrollbar
+{
+    width: 6px;
+    background-color: #F5F5F5;
+}
+
+.side::-webkit-scrollbar-thumb
+{
+    background-color: #4679dc;
+}
+.tech{
+    padding: 3vmin;
+    padding-left: 15vmin;
+    font-family: myFirstFont;
+    font-size: 4vmin;
+    color: #ff8d00;
+}
+.progress{
+    height: 1vmin;
+    background-color: #c9c9c9;
+margin-left: 20vmin;
+    margin-right: 20vmin;
+
+}
+.progress-bar{
+    background-color: #3a3dff;
+}
+.tech1{
+
+    padding-left: 20vmin;
+    font-family: myFirstFont;
+    font-size: 2.7vmin;
+    color: #0c26b6;
+}
+.tech2{
+
+    padding-left: 20vmin;
+    font-family: myFirstFont;
+    font-size: 2.7vmin;
+    color: #00a708;
+}
+.tech3{
+
+    padding-left: 20vmin;
+    font-family: myFirstFont;
+    font-size: 2.7vmin;
+    color: black;
+}
+.way{
+
+    padding: 3vmin;
+    text-align: center;
+    padding-left: 2vmin;
+    font-family: myFirstFont;
+    font-size: 4vmin;
+    color: #ff8d00;
+}
+.detail{
+
+    padding-left: 7vmin;
+    text-align: center;
+    font-family: myFirstFont;
+    font-size: 2.7vmin;
+    color: #00a708;
+}
+.contact-info{
+
+    word-wrap: break-word;
+
+    word-break: break-all;
+}
+.navbar{
+    background-color: #a20009;
+    border: 1px solid #a20009;
+}
+
+
+.btn-default{
+    background: rgba(50, 49, 53, 0.96);
+    box-shadow: none;
+    color: white;
+
+}
+.btn-default{
+    margin-left: 33%;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .content {
+        position: static;
+        margin-top: 15%;
+        padding-bottom: 10%;
+        width: 100%;
+
+    }
+
+
+    aside{
+        top: 10%;
+        right: 0;
+        display: block;
+        padding: 0;
+        position: absolute;
+        font: bold 1em tahoma;
+
+    }
+    li{
+        list-style: none;
+        padding: 2vmin;
+
+
+    }
+    ul li a i {
+
+        color: #fffdfb;
+
+        width: 6vmin;
+        height: 6vmin;
+        border-radius: 4vmin;
+        font-size: 4vmin;
+        text-align: center;
+        margin-right: 3vmin;
+        padding-top: 15%;
+
+    }
+
+
+    .way{
+
+        font-family: myFirstFont;
+        font-size: 4vmin;
+        color: #ff8d00;
+
+    }
+    .detail{
+        padding: 0vmin;
+        font-family: myFirstFont;
+        font-size: 2.7vmin;
+        color: #00a708;
+
+    }
+    #education,#skills,#work,#project,#contact{
+        padding-top: 10vmin;
+    }
+
+    .btn-default{
+        margin-left: 37%;
+    }
+
+
+}
